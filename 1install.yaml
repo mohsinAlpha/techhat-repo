@@ -15,3 +15,7 @@
 
   - name: Start httpd service
     service: name=httpd state=started
+
+
+  - name: using the debug module
+    debug: msg="This is a DNS playbook"
